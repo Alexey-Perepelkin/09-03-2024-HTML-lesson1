@@ -1,0 +1,19 @@
+
+.center{
+    width: 100%;
+    display: flex;
+}
+.center-img img{
+    margin: 10px auto 10px;
+    display: block;
+    width: 70%;
+}
+
+.center-img{
+    height: 500px;
+    padding: 0 20px;
+    justify-content:flex-start;
+}
+.title{
+    text-align: center;
+}
