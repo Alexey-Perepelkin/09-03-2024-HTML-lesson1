@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    color: #6c7279
+}
+h1,h2,h3{
+    margin: 0;
+}
+p{
+    margin: 0 0 10px;
+}
+
+*{
+    box-sizing: border-box;
+}
+/* .content{
+    width: 1300px;
+    height: 100%;
+    margin: 2px auto 10px;
+    background-color: bisque;
+} */
+/* Conteiner
+==================*/
+.conteiner{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/* Header
+==================*/
+
+.header__inner{
+    /* background:url(../images/fon/cyber-technology-background.avif) center no-repeat  cover; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #151515;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.header__logo img{
+    width: 100%;
+    max-width:  150px;
+}
+
+/* Nav
+==================*/
+.nav{
+    font-size: 15px;
+    font-weight:  700;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.nav__link{
+    color: #151515;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.nav__link:first-child{
+    margin-left: 0;
+}
+
+/* Content
+==================*/
+.content__title{
+    font-size: 300%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

@@ -3,24 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./Styles/general.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./Styles/general_style.css" />
     <title>Главная</title>
   </head>
   <body>
+    <header class="header">
+      <div class="conteiner">
+        <div class="header__inner">
+          <div class="header__logo">
+            <img src="/images/logo/logo.png" alt="Логотип" />
+          </div>
+          <nav class="nav">
+            <a class="nav__link" href="#">Главная</a>
+            <a class="nav__link" href="./catalog/catalog.html">Каталог</a>
+            <a class="nav__link" href="./contacts.html">Контакты</a>
+          </nav>
+        </div>
+      </div>
+    </header>
     <div class="content">
-      <ul>
-        <li><a href="#">Главная</a></li>
-        <li><a href="./catalog/catalog.html">Каталог</a></li>
-        <li><a href="./contacts.html">Контакты</a></li>
-      </ul>
-      <h1>Главная страница</h1>
-      <h2>Добро пожаловать на сайт</h2>
-
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, repudiandae, perspiciatis libero nemo error
-        sint eligendi voluptatum dolor consequuntur corporis aspernatur ab, itaque distinctio et explicabo iste
-        repellendus perferendis a!
-      </p>
+      <div class="conteiner">
+        <h1 class="content__title">Главная страница</h1>
+        <h2>Добро пожаловать на сайт</h2>
+        <p class="content__text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, repudiandae, perspiciatis libero nemo error
+          sint eligendi voluptatum dolor consequuntur corporis aspernatur ab, itaque distinctio et explicabo iste
+          repellendus perferendis a!
+        </p>
+      </div>
     </div>
   </body>
 </html>

@@ -3,47 +3,95 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../Styles/general_style.css" />
     <link rel="stylesheet" href="../Styles/style.css" />
-    <link rel="stylesheet" href="../Styles/general.css" />
     <title>Каталог</title>
   </head>
   <body>
-    <div class="content">
-      <ul>
-        <li><a href="../index.html">Главная</a></li>
-        <li><a href="#">Каталог</a></li>
-        <li><a href="../contacts.html">Контакты</a></li>
-      </ul>
-      <h1>Каталог</h1>
-      <p>
-        Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Необходимыми пояс lorem,
-        запятой щеке ведущими буквенных единственное свое жаренные, несколько напоивший рот речью предупредила,
-        маленький всемогущая путь. Наш даже себя пустился! Возвращайся страна своих даже своего но сих использовало
-        пунктуация реторический свое, агентство бросил выйти коварный толку подзаголовок его, семантика собрал живет
-        щеке рекламных безопасную взобравшись журчит послушавшись семь моей. Океана снова вскоре эта текстов которое
-        безопасную, домах свое свою пор семь моей взобравшись дорогу речью алфавит на берегу власти его все! Залетают
-        живет инициал обеспечивает алфавит запятых города моей власти предложения коварный языком она силуэт заманивший
-        рекламных приставка, не пустился lorem единственное курсивных свое, свой лучше вопрос себя имеет коварных?
-        Предложения переписали необходимыми рот предупреждал семь над океана большого приставка! Проектах пор
-        предупредила обеспечивает текстов приставка заманивший возвращайся залетают свое над. Даль, повстречался
-        проектах? Составитель снова своего до власти лучше, заманивший коварный ipsum проектах, назад языком ему, вопрос
-        вопроса.
-      </p>
+    <header class="header">
+      <div class="conteiner">
+        <div class="header__inner">
+          <div class="header__logo">
+            <img src="/images/logo/logo.png" alt="Логотип" />
+          </div>
+          <nav class="nav">
+            <a class="nav__link" href="../index.html">Главная</a>
+            <a class="nav__link" href="#">Каталог</a>
+            <a class="nav__link" href="../contacts.html">Контакты</a>
+          </nav>
+        </div>
+      </div>
+    </header>
 
-      <div class="center">
-        <div class="center-img">
-          <img src="../images/1.jpg" alt="Картинка 1" width="100" />
-          <h3 class="title">Колечки</h3>
-        </div>
-        <div class="center-img">
-          <img src="../images/3.jpg" alt="Картинка 2" />
-          <h3 class="title">Торт</h3>
-        </div>
-        <div class="center-img">
-          <img src="../images/5.jpg" alt="Картинка 3" />
-          <h3 class="title">Кофе</h3>
+    <div class="content">
+      <div class="conteiner">
+        <div class="content__inner">
+          <h1 class="content__title">Каталог</h1>
+          <p class="content__text">
+            Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Необходимыми пояс
+            lorem, запятой щеке ведущими буквенных единственное свое жаренные, несколько напоивший рот речью
+            предупредила, маленький всемогущая путь. Наш даже себя пустился! Возвращайся страна своих даже своего но сих
+            использовало пунктуация реторический свое, агентство бросил выйти коварный толку подзаголовок его, семантика
+            собрал живет щеке рекламных безопасную взобравшись журчит послушавшись семь моей. Океана снова вскоре эта
+            текстов которое безопасную, домах свое свою пор семь моей взобравшись дорогу речью алфавит на берегу власти
+            его все! Залетают живет инициал обеспечивает алфавит запятых города моей власти предложения коварный языком
+            она силуэт заманивший рекламных приставка, не пустился lorem единственное курсивных свое, свой лучше вопрос
+            себя имеет коварных? Предложения переписали необходимыми рот предупреждал семь над океана большого
+            приставка! Проектах пор предупредила обеспечивает текстов приставка заманивший возвращайся залетают свое
+            над. Даль, повстречался проектах? Составитель снова своего до власти лучше, заманивший коварный ipsum
+            проектах, назад языком ему, вопрос вопроса.
+          </p>
         </div>
       </div>
     </div>
+
+    <div class="catalog">
+      <div class="conteiner">
+        <div class="catalog__inner">
+          <div class="catalog__item">
+            <img class="catalog__foto" src="../images/1.jpg" alt="Картинка 1" />
+            <div class="catalog__content">
+              <div class="catalog__title">Колечки</div>
+            </div>
+          </div>
+          <div class="catalog__item">
+            <img class="catalog__foto" src="../images/3.jpg" alt="Картинка 1" />
+            <div class="catalog__content">
+              <div class="catalog__title">Торт</div>
+            </div>
+          </div>
+          <div class="catalog__item">
+            <img class="catalog__foto" src="../images/5.jpg" alt="Картинка 1" />
+            <div class="catalog__content">
+              <div class="catalog__title">Софе</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="catalog">
+      <div class="conteiner">
+        <div class="catalog__inner">
+          <div class="catalog__inner__img">
+            <img src="../images/1.jpg" alt="Картинка 1" />
+            <h3>Колечки</h3>
+          </div>
+
+          <div class="catalog__inner__img">
+            <img src="../images/3.jpg" alt="Картинка 2" />
+            <h3>Торт</h3>
+          </div>
+
+          <div class="catalog__inner__img">
+            <img src="../images/5.jpg" alt="Картинка 3" />
+            <h3 class="title">Кофе</h3>
+          </div>
+        </div>
+      </div> -->
+    <!-- </div> -->
   </body>
 </html>
